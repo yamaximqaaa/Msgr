@@ -1,5 +1,9 @@
 ﻿namespace TestConsole;
 
-public class Class1
+public static class StartUp
 {
+    public static void Main()
+    {
+        Console.WriteLine("Test");
+    }
 }
