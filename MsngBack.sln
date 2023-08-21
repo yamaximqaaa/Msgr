@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsngBack", "MsngBack\MsngBack.csproj", "{8D4EE52D-3C80-4BDA-963E-04FA1377D4BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D4EE52D-3C80-4BDA-963E-04FA1377D4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4EE52D-3C80-4BDA-963E-04FA1377D4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4EE52D-3C80-4BDA-963E-04FA1377D4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4EE52D-3C80-4BDA-963E-04FA1377D4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
