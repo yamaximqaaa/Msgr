@@ -12,9 +12,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
       <Folder Include="DataLayer\Db\Migration\" />
-      <Folder Include="DataLayer\InMemory\" />
       <Folder Include="Helpers\" />
       <Folder Include="Services\" />
     </ItemGroup>

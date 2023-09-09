@@ -8,10 +8,10 @@ public class UserView
 
     public UserBase GetNewUserFromViewModel()      // todo: move to NewUser class
     {
-        return new MsngBack.Models.User.UserBase()
+        return new UserBase()
         {
             Id = Guid.NewGuid(),
-            //Login = this.Login,
+            Login = this.Login,
             Name = this.Name
         };
     }
@@ -20,7 +20,7 @@ public class UserView
         return new UserBase()
         {
             Id = id,
-            //Login = this.Login,
+            Login = this.Login,
             Name = this.Name
         };
     }
