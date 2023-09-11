@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using MsngBack.DataLayer.Db;
 using MsngBack.DataLayer.IContext;
 using MsngBack.DataLayer.InMemory;
 
@@ -9,6 +12,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MacOs")));
 
 builder.Services.AddSingleton<IUserContext, InMemoryUserContext>();
 
